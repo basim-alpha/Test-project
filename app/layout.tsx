@@ -28,6 +28,20 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+<script 
+  src="http://localhost:3000/chatbot.js" 
+  data-chatbot-id="ba1a28acc4a911f08a21c2ded96dd24b"
+  data-assistant-id="d1c61ed4c4a911f09e91c2ded96dd24b"
+  data-theme-color="#6882FF"
+  data-avatar-image="https://jaaxis-staging.s3.ap-southeast-1.amazonaws.com/jaaxis-widget-logo.png"
+  data-bubble-text=""
+  data-width="400"
+  data-height="680"
+  data-position="right"
+  data-show-on-mobile="true"
+  async
+></script>
       </body>
     </html>
   );
