@@ -6,8 +6,13 @@ const products = [
   { id: 3, name: 'Tablet', price: '$499', description: 'Portable tablet for work and play' },
 ];
 
-export default function ProductDetailPage({ params }: { params: { id: string } }) {
-  const product = products.find((p) => p.id === parseInt(params.id));
+type Props = Readonly<{
+  params: Promise<{ id: string }>;
+}>;
+
+export default async function ProductDetailPage({ params }: Props) {
+  const { id } = await params;
+  const product = products.find((p) => p.id === parseInt(id));
 
   if (!product) {
     return (
