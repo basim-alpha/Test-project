@@ -30,7 +30,7 @@ export default function RootLayout({
         {children}
 
         <script 
-  src="http://localhost:3000/chatbot.js" 
+  src="https://jaaxis-fe-git-new-features-alphasquad.vercel.app/chatbot.js" 
   data-chatbot-id="ba1a28acc4a911f08a21c2ded96dd24b"
   data-assistant-id="d1c61ed4c4a911f09e91c2ded96dd24b"
   data-theme-color="#6882FF"
