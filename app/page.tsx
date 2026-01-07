@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      <h1>Welcome to My Next.js App</h1>
+      <h1>Welcome to My CAPI App</h1>
       <p style={{ marginTop: '1rem' }}>
         This is a simple demo with multiple routes and nested pages.
       </p>
