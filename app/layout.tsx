@@ -29,16 +29,16 @@ export default function RootLayout({
       >
         {children}
 <script 
-  src="https://jaaxis-fe-git-new-features-alphasquad.vercel.app//chatbot.js" 
-  data-chatbot-id="2ace3bb4e7c911f0b6ac7ae47d1978e4"
-  data-assistant-id="3b3030d4e7c911f0b36b7ae47d1978e4"
-  data-theme-color="#a7bb0a"
+  src="https://sharing-widely-buffalo.ngrok-free.app/chatbot.js" 
+  data-chatbot-id="dbcfa5faf08011f0a2a47ae47d1978e4"
+  data-assistant-id="e93266ecf08011f08eed7ae47d1978e4"
+  data-theme-color="#099397"
   data-avatar-image="https://jaaxis-staging.s3.ap-southeast-1.amazonaws.com/jaaxis-widget-logo.png"
   data-bubble-text=""
   data-width="400"
   data-height="680"
   data-position="right"
-  data-show-on-mobile="false"
+  data-show-on-mobile="true"
   async
 ></script>
 
