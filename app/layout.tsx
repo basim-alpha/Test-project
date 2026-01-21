@@ -30,15 +30,15 @@ export default function RootLayout({
         {children}
 <script 
   src="https://jaaxis-fe-git-new-features-alphasquad.vercel.app//chatbot.js" 
-  data-chatbot-id="ba1a28acc4a911f08a21c2ded96dd24b"
-  data-assistant-id=""
-  data-theme-color="#6882FF"
+  data-chatbot-id="2ace3bb4e7c911f0b6ac7ae47d1978e4"
+  data-assistant-id="3b3030d4e7c911f0b36b7ae47d1978e4"
+  data-theme-color="#a7bb0a"
   data-avatar-image="https://jaaxis-staging.s3.ap-southeast-1.amazonaws.com/jaaxis-widget-logo.png"
   data-bubble-text=""
   data-width="400"
   data-height="680"
   data-position="right"
-  data-show-on-mobile="true"
+  data-show-on-mobile="false"
   async
 ></script>
 
