@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         {children}
 <script 
-  src="https://sharing-widely-buffalo.ngrok-free.app/chatbot.js" 
+  src="https://jaaxis-fe-git-new-features-alphasquad.vercel.app//chatbot.js" 
   data-chatbot-id="dbcfa5faf08011f0a2a47ae47d1978e4"
   data-assistant-id="e93266ecf08011f08eed7ae47d1978e4"
   data-theme-color="#099397"
